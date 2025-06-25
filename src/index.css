@@ -15,3 +15,28 @@ code {
   margin-left:60px;
 }
 .logo-image {   width: 60px;   height: auto;   object-fit: contain;   margin-bottom: 10px; }
+
+#supportWrapper{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 150px;
+}
+#supportHero{
+  background-color: rgb(56, 126, 209);
+  color: white;
+  
+}
+#supportHero a{
+  color: white;
+  margin: 0px 20px 15px 0px;
+  font-family: sans-serif;
+}
+#supportHero input{
+  padding: 18px 100px;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+}
+/* #supportHero li{
+  margin: 0 100px;
+} */

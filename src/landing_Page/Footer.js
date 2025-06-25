@@ -3,7 +3,7 @@ import React from 'react';
 function Footer() {
   return (
     <footer>
-    <div className="container">
+    <div className="container border-top">
       <div className="row py-5">
         <div className="col">
           <img src="media/images/logo.svg" alt="logo" style={{ width: "40%" }} />
