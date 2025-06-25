@@ -3,24 +3,22 @@ import Hero from "./Hero";
 import Awards from "./awards";
 import Stats from "./stats";
 import Education from "./Education";
-import Pricing from "./pricing"
-
-import Navbar from "../Navbar";
+import PricingCompo from "./PricingCompo"
 import OpenAccount from "../OpenAccount";
-import Footer from "../Footer";
+
 
 
 function HomePage() {
     return ( 
         <>
-        <Navbar/>
+        
         <Hero />
         <Awards/>
         <Stats/>
-        <Pricing/>
+        <PricingCompo/>
         <Education/>
         <OpenAccount/>
-        <Footer/>
+        
         </>
      );
 }
