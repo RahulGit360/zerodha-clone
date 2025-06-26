@@ -1,0 +1,38 @@
+.container {
+    padding: 1rem;
+    font-family: sans-serif;
+  }
+  
+  .navbar {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content:start;
+    gap: 1rem;
+  }
+  
+  .navbar button {
+    padding: 0.5rem 1rem;
+    background-color: #eee;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .navbar button:hover {
+    background-color: #ccc;
+  }
+  
+  .table-section {
+    margin-top: 1rem;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+  }
+  
